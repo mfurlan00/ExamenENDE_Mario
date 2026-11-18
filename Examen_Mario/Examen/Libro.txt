@@ -22,4 +22,13 @@ public class Libro
 	{
 		return "Libro [titulo=" + titulo + ", autor=" + autor + ", ISBN=" + ISBN + ", prestado=" + prestado + "]";
 	}
+	public Libro (String titulo, String autor, String iSBN, Boolean prestado) 
+	{
+		super();
+		this.titulo = titulo;
+		this.autor = autor;
+		ISBN = iSBN
+		this.prestado = prestado;
+	}
+
 }
